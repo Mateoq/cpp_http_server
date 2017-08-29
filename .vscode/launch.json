@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/bin/HttpServer",
+      "args": ["http://localhost", "8080", "/Users/mquintero/Projects/Personal/Cpp/WebDeveloping/BoostHttpServer/data"],
+      "stopAtEntry": true,
+      "cwd": "${workspaceRoot}/src",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    }
+  ]
+}
